@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<style media="screen">
+  @import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+  :root {
+    --color-white: #f3f3f3;
+    --color-darkblue: #1b1b32;
+    --color-darkblue-alpha: rgba(27, 27, 50, 0.8);
+    --color-green: #37af65;
+  }
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  html
+{
+  font-size: 10px
+}
+body
+{
+  font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+  font-size:1.6rem;
+  margin:0px;
+  text-align:center;
+  text-color: #1b1b32;
+}
+
+p{
+  font-size: 4rem;
+  margin: 1.5rem;
+}
+
+@media(max-width: 450px)
+{p{
+  font-size: 3.5rem
+  line-height:
+}
+}
+
+h2
+{
+  font-sixe: 3.5rem;
+}
+
+a {
+  color: #477ca7;
+}
+
+a:visited {
+  color: #74638f;
+}
+
+
+#main
+{
+  margin: 30px 10px;
+  border-radius:5 px;
+  padding:  15px;
+  background:#f0f0f0;
+}
+
+@media(max-width: 460px)
+{
+  #main
+  {
+    margin: 0px;
+  }
+}
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: var(--main-red);
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+  z-index: 10;
+}
+
+.nav-list {
+  display: flex;
+  margin-right: 2rem;
+}
+
+@media (max-width: 28.75em) {
+  .nav {
+    justify-content: center;
+  }
+
+  .nav-list {
+    margin: 0 1rem;
+  }
+}
+
+.nav-list a {
+  display: block;
+  font-size: 2.2rem;
+  padding: 2rem;
+}
+
+.nav-list a:hover {
+  background: var(--main-blue);
+}
+img
+{
+max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+#img-div
+{
+  background: white;
+  padding: 10px ;
+  margin: 0;
+}
+#img-caption
+{
+  margin: 15px 15px 0px;
+}
+@media(max-width: 460px)
+{
+  img-caption{
+    margin: 0;
+  }
+}
+  #headline
+{
+  margin: 50px o;
+  text-align: center;
+}
+
+ul
+{
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  line-height: 1.6;
+  text-align: left;
+}
+li
+{
+  margin: 16px 0;
+}
+
+}
+#academics {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#academics td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#academics tr:nth-child(even){background-color: #f2f2f2;}
+
+#academics tr:hover {background-color: #ddd;}
+
+#academics th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+</style>
+<style>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</style>
+<style src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js">
+</style>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Academics</title>
+  </head>
+  <body>
+
+   <p><strong><em>Kumar Gaurav</em></strong></p>
+
+   <nav id="navbar" class="nav">
+     <ul class ="nav-list">
+       <li><a href="resume.html">Back</a>
+       </li>
+
+     </ul>
+     </nav>
+
+
+ <section id="Tribute info">
+   <legend><h3 id="headline">Academics Data</h3>
+     <table id="academics">
+  <tr>
+    <th>Year(s)</th>
+    <th>Qualification-Degree</th>
+    <th>Board/University</th>
+    <th>College/Institute/University</th>
+    <th>Percentage/CGPA</th>
+  </tr>
+  <tr>
+    <td>2015-2019</td>
+    <td>B.tech in Computer Science with Specialization in Oil and Gas Informatics</td>
+    <td>UPES</td>
+    <td>SoCSE</td>
+    <td>6.17/10</td>
+  </tr>
+  <tr>
+    <td>2015</td>
+    <td>XII</td>
+    <td>CBSE</td>
+    <td>Gyan Niketan</td>
+    <td>75%</td>
+  </tr>
+  <tr>
+    <td>2012</td>
+    <td>X</td>
+    <td>CBSE</td>
+    <td>Loyola Convent School</td>
+    <td>9.6/10</td>
+  </tr>
+
+</table>
+       </legend>
+
+       </section>
+
+   </main>
+  </body>
+</html>

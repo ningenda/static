@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<style media="screen">
+  @import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+  :root {
+    --color-white: #f3f3f3;
+    --color-darkblue: #1b1b32;
+    --color-darkblue-alpha: rgba(27, 27, 50, 0.8);
+    --color-green: #37af65;
+  }
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  html
+{
+  font-size: 10px
+}
+body
+{
+  font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+  font-size:1.6rem;
+  margin:0px;
+  text-align:center;
+  text-color: #1b1b32;
+}
+
+p{
+  font-size: 4rem;
+  margin: 1.5rem;
+}
+
+@media(max-width: 450px)
+{p{
+  font-size: 3.5rem
+  line-height:
+}
+}
+
+h2
+{
+  font-sixe: 3.5rem;
+}
+
+a {
+  color: #477ca7;
+}
+
+a:visited {
+  color: #74638f;
+}
+
+
+#main
+{
+  margin: 30px 10px;
+  border-radius:5 px;
+  padding:  15px;
+  background:#f0f0f0;
+}
+
+@media(max-width: 460px)
+{
+  #main
+  {
+    margin: 0px;
+  }
+}
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: var(--main-red);
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+  z-index: 10;
+}
+
+.nav-list {
+  display: flex;
+  margin-right: 2rem;
+}
+
+@media (max-width: 28.75em) {
+  .nav {
+    justify-content: center;
+  }
+
+  .nav-list {
+    margin: 0 1rem;
+  }
+}
+
+.nav-list a {
+  display: block;
+  font-size: 2.2rem;
+  padding: 2rem;
+}
+
+.nav-list a:hover {
+  background: var(--main-blue);
+}
+img
+{
+max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+#img-div
+{
+  background: white;
+  padding: 10px ;
+  margin: 0;
+}
+#img-caption
+{
+  margin: 15px 15px 0px;
+}
+@media(max-width: 460px)
+{
+  img-caption{
+    margin: 0;
+  }
+}
+  #headline
+{
+  margin: 50px o;
+  text-align: center;
+}
+
+ul
+{
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  line-height: 1.6;
+  text-align: left;
+}
+li
+{
+  margin: 16px 0;
+}
+
+}
+
+
+</style>
+<style>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</style>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Projects and Certifications</title>
+  </head>
+  <body>
+    <main id=main>
+
+
+
+   <p><strong><em>Kumar Gaurav</em></strong></p>
+   <nav id="navbar" class="nav">
+     <ul class ="nav-list">
+       <li><a href="resume.html">Back</a>
+       </li>
+
+     </ul>
+     </nav>
+
+
+ <section id="Projects">
+   <legend><h3 id="headline">Projects</h3>
+     <ul >
+       <li><strong><em>Internship</em></strong><br>
+         <strong>Company: </strong> IBM<br>
+         <strong>Project: </strong> X TO Watson<br>
+         <ul>
+           <li>Study on Watson API</li>
+           <li>Study different API offered by Google, Amazon, Microsoft.</li>
+           <li>Make an application that takes the API of these and replace them by Watson Api</li>
+           <li>Compare the efficiency from both the APIs</li>
+         </ul>
+       </li>
+       </ul>
+       <ul>
+         <li><strong><em>Major Project 2</em></strong></li>
+         <ul>
+           <li><strong>Sign Language Recognition</strong></li>
+           <li>To Build up something for physically impaired persons to facilitate communication and learning</li>
+           <li>To build a software that detects ASL using external hardware like a video camera and converts it into text.</li>
+           <li>Recognize hand gestures and remember pattern sequences</li>
+         </ul>
+       </ul>
+       <ul>
+         <li><strong><em>Major Project 1</em></strong></li>
+         <ul>
+           <li><strong>GIS Based Study of Fresh Water Distribution and Proposal for Best Method Planning</strong></li>
+           <li>To understand,identify and visualize water critical zone using ARCGIS</li>
+           <li>To find suitable path using Djiskastra's Algorith and Bellman ford</li>
+           <li>To implement efficient path for water supply in water deficient areas</li>
+         </ul>
+       </ul>
+       <ul>
+         <li><strong><em>MinorProject 2</em></strong></li>
+         <ul>
+           <li><strong>System Updating by Real-Time Recommendataion Algorithm</strong></li>
+           <li>Recommendation algorithms were used</li>
+           <li>These algorithms were applied in real-time to a database</li>
+         </ul>
+        </ul>
+         <ul>
+           <li><strong><em>Minor Project 1</em></strong></li>
+           <ul>
+             <li>Different image processing algorithm were applied on images</li>
+             <li>These algorithms were used to show different characteristics of an image.</li>
+           </ul>
+        </ul>
+
+       </legend>
+
+       </section>
+       <section id="Certifications">
+         <legend><h3 id="headline">Certifications</h3>
+           <ul>
+             <li><strong><em>Python and Django Full Stack Developer Bootcamp</em></strong></li>
+             <li><strong>Certificate no.: </strong></li>
+             <ul>
+               <li>UC-03ac7b10-8af2-4002-be63-934c12065b26</li>
+             </ul>
+             <li><strong>Certificate url: </strong></li>
+             <ul>
+               <li>ude.my/UC-03ac7b10-8af2-4002-be63-934c12065b26</li>
+             </ul>
+             <li><strong><em>The Python Mega Course: Build 10 Real Word Applications</em></strong></li>
+             <li><strong>Certificate no.: </strong></li>
+             <ul>
+               <li>UC-aea582b7-423b-4bad-8d04-b51c9fbb7042</li>
+             </ul>
+             <li><strong>Certificate url: </strong></li>
+             <ul>
+               <li>ude.my/UC-aea582b7-423b-4bad-8d04-b51c9fbb7042</li>
+             </ul>
+           </ul>
+
+         </legend>
+       </section>
+
+   </main>
+  </body>
+</html>
